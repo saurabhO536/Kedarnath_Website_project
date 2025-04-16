@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: rgb(197, 187, 255);
+}    
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(67, 67, 255);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 3px 5px 3px rgb(104, 104, 255);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 40px;
+}
+#center{
+    display: flex;
+    height: 350px;
+    margin: 40px 50px 20px 150px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+    position: absolute;
+} 
+#login:hover{
+    text-shadow: 5px 3px 5px black;
+    transform: scale(1.2);
+        transition-property: transform;
+        transition-duration: 3s;
+    color: white;
+    text-decoration: none;
+}
+#img{
+    border-radius: 20px;
+    display:flex;
+    margin: 50px 50px;
+} 
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+#loc
+{
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#login{
+    color: white;
+    text-decoration: none;
+}
+#table{
+    border: 1px;
+
+}
+h1{
+    margin: 20px 300px 20px 500px;
+}
+</style>
+<body>
+    <div id="main">
+        <nav id="navbar">
+            <a id="login" href="http://127.0.0.1:5500/css/project/project.html">Kedarnath</a>
+            <a id="login" href="http://127.0.0.1:5500/css/project/placestovisit.html">Places to Visit</a>
+            <a id="login" href="http://127.0.0.1:5500/css/project/packages.html">Packages</a>
+            <a id="login" href="http://127.0.0.1:5500/css/project/photos.html">Photos</a>
+            <a id="login" href="http://127.0.0.1:5500/css/project/login.html">Log in/Sign up</a>
+        </nav>
+    </div>  
+
+<div>
+    <br>
+
+    <h1>Popular Kedarnath Packages</h1> 
+</div>
+<div id="center">  
+    <table id="table" border="1px"solid cellpadding="5"  style="border-collapse: collapse;">
+ <tr>
+        <td><b>Packages</b></td>
+        <td><b>Price</b></td>
+        <td><b>Days</b></td>
+        <td><b>Inclusion</b></td>
+    </tr>
+
+    <tr>
+        <td>Haridwar, Guptkashi</td>
+        <td>15,500/-</td>
+        <td>5 Days/ 4 Nights</td>
+        <td>Hotels, Car, Sightseeing, Meals, Other</td>
+    </tr>
+    <tr>
+        <td>Guptkashi, Kedarnath, Rudrapryag, Badrinath</td>
+        <td>25,500/-</td>
+        <td>6 Days/ 5 Nights</td>
+        <td>Hotels, Car, Sightseeing, Meals, etc</td>
+    </tr>
+    <tr>
+        <td>Haridwar, uttarkashi, Barkot, Yamunotri, gangotri, Guptkashi, Kedarnath, Rudrapryag, Badrinath</td>
+        <td>53,500/-</td>
+        <td>10 Days/ 9 Nights</td>
+        <td>Hotels, Car, Sightseeing, Meals, etc</td>
+    </tr>
+    <tr>
+        <td>Haridwar, guptkashi, kedarnath, Rudrapryag, gangotri</td>
+        <td>30,500/-</td>
+        <td>5 Days/ 4 Nights</td>
+        <td>Hotels, Car, Sightseeing, Meals, etc</td>
+    </tr>
+    <tr>
+        <td>Haridwar, harshi</td>
+        <td>10,500/-</td>
+        <td>4 Days/ 3 Nights</td>
+        <td>Hotels, Car, Sightseeing, Meals, etc</td>
+    </tr>
+
+    </table>
+</div>  
+</body>
+</html>

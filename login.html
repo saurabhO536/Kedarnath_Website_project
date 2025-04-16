@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* #navbar{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(67, 67, 255);
+    border: 1px solid transparent;
+    box-shadow: 3px 5px 3px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: serif;
+    gap: 20px;
+} */
+    body{
+        background-color: antiquewhite;
+    }
+    #center{
+        width: 500px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 150px;
+    }
+    #center:hover{
+    transform: scale(1.2);
+        transition-property: transform;
+        transition-duration: 3s;
+}
+    #button{
+    width: 250px;
+    height: 30px;
+ background-color: blue;
+ border: 1px solid transparent ;
+ border-radius: 5px;
+}
+.name{
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+}
+</style>
+<body>
+    <form>
+        <form>
+            <center>
+                <!-- <div>
+                    <nav id="navbar">
+                        <div> Kedarnath </div>
+                        <div> Places To Visit </div>
+                        <div> Packages </div>
+                        <div> Photos </div>
+                        <div> Log in/Sign up </div>
+                    </nav>
+                    </div> -->
+            <div id="center">
+                <br>
+            <legend style="text-align: center;"><h2>Log in</h2></legend>
+            <br><br>
+            <!-- <label for="">Name:</label> -->
+            <input class="name" type="text" placeholder="Enter your Userame" required autofocus>
+            <br><br>
+
+            <!-- <label for="">Password:</label> -->
+            <input class="name" type="text" placeholder="Enter your Password" >
+            <br><br>
+            <input id="button" type="submit" value="Log in"><br><br>
+            Don't have an account? <a href="http://127.0.0.1:5500/css/project/signup.html">Sign up</a>
+        </div>
+        </center>
+        </form>
+    </form>
+</body>
+</html>

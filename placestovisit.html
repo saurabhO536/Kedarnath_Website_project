@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(93, 168, 255);
+
+    }
+
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(67, 67, 255);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 3px 5px 3px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 40px;
+}
+#center{
+    display: flex;
+    height: 550px;
+    margin: 20px 30px 20px 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+    /* position: absolute; */
+}
+#login:hover{
+    text-shadow: 5px 3px 5px black;
+    transform: scale(1.2);
+        transition-property: transform;
+        transition-duration: 3s;
+    color: white;
+    text-decoration: none;
+}
+#image{
+
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+} 
+#info{
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    padding: 20px;
+}
+#loc
+{
+    text-shadow: 1px 1px 1px;
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    
+}
+#login{
+    color: white;
+    text-decoration: none;
+}
+#internal{
+    background-size: 20px;
+}
+#img{
+    text-shadow: 2px 2px 2px black;
+}
+#border{
+
+    display: flex;
+    justify-items: center;
+
+
+}
+</style>
+<body>
+    <div id="main">
+        <nav id="navbar">
+            <a id="login" href="http://127.0.0.1:5500/css/project/project.html">Kedarnath</a>
+            <a id="login" href="http://127.0.0.1:5500/css/project/placestovisit.html">Places to Visit</a>
+            <a id="login" href="http://127.0.0.1:5500/css/project/packages.html">Packages</a>
+            <a id="login" href="http://127.0.0.1:5500/css/project/photos.html">Photos</a>
+            <a id="login" href="http://127.0.0.1:5500/css/project/login.html">Log in/Sign up</a>
+        </nav>
+    </div>  
+    <div id="center">
+    <div id="image">
+        <img id="img" style="width: 500px; height: 350px;" src="./kedarnath-temple.webp" alt="">
+        <a id="loc" href="http://127.0.0.1:5500/css/project/project.html">Kedarnath</a>
+    </div>
+<div id="border">
+    <div id="info">
+        <img style="width: 200px; height: 150px;" src="./m_Haridwar_destjulimg_1_l_1001_1502.jpg" alt="">
+        <a id="loc" href="https://maps.app.goo.gl/oxbXTtRhN4uFmWn29">Haridwar,uttarakhand</a>
+
+        <img style="width: 200px; height: 150px;" src="./m_rishikesh-landscape_l_400_640.jpg" alt="">
+        <a id="loc" href="https://maps.app.goo.gl/oxbXTtRhN4uFmWn29">Hrishikesh,uttarakhand</a>
+    </div>   
+    <div id="info"> 
+        <img style="width: 200px; height: 150px;" src="./badrinath.jpg" alt="">
+        <a id="loc" href="https://maps.app.goo.gl/oxbXTtRhN4uFmWn29">Badrinath,uttarakhand</a>
+
+        <img style="width: 200px; height: 150px;" src="./m_Uttarkashi_1_l_552_981.jpg" alt="">
+        <a id="loc" href="https://maps.app.goo.gl/oxbXTtRhN4uFmWn29">Uttarkashi,uttarakhand</a>
+    </div>
+</div>
+        <div id="info">
+            <img style="width: 200px; height: 150px;" src="./m_Gangotri_1_l_427_640.jpg" alt="">
+            <a id="loc" href="https://maps.app.goo.gl/oxbXTtRhN4uFmWn29">Gangotri,uttarakhand</a>
+        
+            <img style="width: 200px; height: 150px;" src="./m_Yamunotri_destination_1_l_559_838.jpg" alt="">
+            <a id="loc" href="https://maps.app.goo.gl/oxbXTtRhN4uFmWn29">Yamunotri,uttarakhand</a>
+        </div>
+    </div>      
+    </div>
+</body>
+</html>
+
+
